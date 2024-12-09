@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: "Rubik";
+  color: #FFFFFF;
+  padding: 45.62px 150px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.96px;
+  color: #4F5665;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  color: #0B132A;
+  display: flex;
+  align-items: center;
+}
+
+.header-vpn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.7px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-reg {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  color: #0B132A;
+  color: #0B132A;
+}
+
+.header-right-sign {
+  color: #F53855;
+  border: #F53855 solid 1px;
+  border-radius: 50px;
+  width: 150px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 88.49px;
+  display: flex;
+  gap: 40.76px;
+  color: #4F5665;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-left-p1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+  color: #0B132A;
+  margin-bottom: 20px;
+  margin-top: 27.66px;
+}
+
+.main-left-p2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 0 50px 0;
+}
+
+.main-left-span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.main-left-button {
+  border: none;
+  background: #F53855;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 65px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.main-grid {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 37.21px 0;
+  width: 1140px;
+  margin: 103px 0 95.83px 0;
+  color: #0B132A;
+}
+
+.main-grid-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 365.5px;
+}
+
+.main-grid-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 36.5px;
+}
+
+.main-grid-center {
+  height: 125.57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 430px;
+  border-left: #EEEFF2 solid 2px;
+  border-right: #EEEFF2 solid 2px;
+}
+
+.main-grid-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 344.5px;
+}
+
+.size-big {
+  margin: 0;
+  padding: 0;
+  color: #0B132A;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.size-small {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.functions {
+  color: #0B132A;
+  display: flex;
+  gap: 169.48px;
+}
+
+.functions-img {
+  width: 508.12px;
+  height: 414.71px;
+}
+
+.functions-pre {
+  display: flex;
+  flex-direction: column;
+}
+
+.functions-pre-h {
+  margin-top: 54.17px;
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.functions-pre-h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0 12.5px 0;
+}
+
+.functions-pre-p {
+  margin: 7.5px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.main2 {
+  margin-top: 207px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main2-h {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #0B132A;
+  text-align: center;
+}
+
+.main2-p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.card {
+  display: flex;
+  gap: 50px;
+  margin: 0 26.02px 0 24.14px;
+}
+
+.card1 {
+  border: #DDDDDD solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 79.63px 69.87px 50px 69.87px;
+  border-radius: 10px;
+}
+
+.card2 {
+  border: #DDDDDD solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 79.63px 69.73px 50px 69.73px;
+  border-radius: 10px;
+}
+
+.card3 {
+  border: #F53838 solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 79.63px 69.73px 50px 69.73px;
+  border-radius: 10px;
+}
+
+.card-galochka {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #4F5665;
+  margin-bottom: 10px;
+}
+
+.card-podpiska {
+  color: #0B132A;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.card-number {
+  color: #0B132A;
+  margin-top: 120px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.card-res {
+  margin: 0;
+  padding: 0;
+}
+
+.card-button {
+  cursor: pointer;
+  border: #F53838 solid 2px;
+  color: #F53838;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  padding: 13px 62.94px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.96px;
+  margin-top: 20px;
+}
+
+.card-button-active {
+  cursor: pointer;
+  border: none;
+  background: #F53838;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.96px;
+  border-radius: 50px;
+  padding: 13px 62.94px;
+}
+
+.card-niz {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #4F5665;
+}
+
+.pre-map-span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.pre-map-marg {
+  color: #0B132A;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 155.81px 41.02px 35.81px 39.14px;
+}
+
+.sponsor {
+  margin-left: -5px;
+  margin-right: 9.36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
