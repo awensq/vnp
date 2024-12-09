@@ -48,32 +48,35 @@ body{
     justify-content: center;
 }
 
-
-
 .header{
     @include header();
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     &-name{
         @include header-name();
         display: flex;
         align-items: center;
     }
+
     &-vpn{
         @include header-vpn();
     }
+
     &-menu{
         display: flex;
         align-items: center;
-        gap: 40px;
+        gap: 40px; 
     }
+
     &-reg{
         display: flex;
         align-items: center;
         gap: 30px;
         @include header-name();
         color: #0B132A;
+
         &-sign{
             color: #F53855;
             border: #F53855 solid 1px;
@@ -92,6 +95,7 @@ body{
     display: flex;
     gap: 40.76px;
     color: #4F5665;
+
     &-left{
         display: flex;
         flex-direction: column;
@@ -101,13 +105,16 @@ body{
             margin-bottom: 20px;
             margin-top: 27.66px;
         }
+
         &-p2{
             @include shablon(16px,400 ,30px );
             margin: 0 0 50px 0;
         }
+
         &-span{
             @include shablon(16px,500 ,30px );
         }
+
         &-button{
             border: none;
             background: #F53855;
@@ -130,17 +137,20 @@ body{
     width: 1140px;
     margin: 103px 0 95.83px 0 ;
     color: #0B132A; 
+
     &-left{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 365.5px;
     }
+
     &-column{
         display: flex;
         flex-direction: column; 
         margin-left: 36.5px;        
     }
+
     &-center{
         height: 125.57px;
         display: flex;
@@ -150,6 +160,7 @@ body{
         border-left: #EEEFF2 solid 2px; 
         border-right: #EEEFF2 solid 2px;
     }
+
     &-right{
         display: flex;
         align-items: center;
@@ -177,13 +188,16 @@ body{
     color: #0B132A;
     display: flex;
     gap: 169.48px;
+
     &-img{
         width: 508.12px;
         height: 414.71px;
     }
+
     &-pre{
         display: flex;
         flex-direction: column;
+
         &-h{
             margin-top: 54.17px;
             @include reset();
@@ -191,6 +205,7 @@ body{
             font-weight: 500;
             line-height: 50px;
         }
+
         &-h2{
             @include reset();
             font-size: 16px;
@@ -198,6 +213,7 @@ body{
             line-height: 30px;
             margin: 20px 0 12.5px 0;
         }
+
         &-p{
             margin: 7.5px;
             @include reset();
@@ -215,6 +231,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+
     &-h{
         @include reset();
         font-size: 35px;
@@ -223,6 +240,7 @@ body{
         color: #0B132A;
         text-align: center;
     }
+
     &-p{
         @include reset();
         font-size: 16px;
@@ -239,6 +257,8 @@ body{
     display: flex;
     gap: 50px;
     margin: 0 26.02px 0 24.14px;
+    cursor: pointer;
+
     &1{
         border: #DDDDDD solid 2px;
         display: flex;
@@ -247,6 +267,7 @@ body{
         padding: 79.63px 69.87px 50px 69.87px;
         border-radius: 10px;
     }
+
     &2{
         border: #DDDDDD solid 2px;
         display: flex;
@@ -255,6 +276,7 @@ body{
         padding: 79.63px 69.73px 50px 69.73px;
         border-radius: 10px;
     }
+
     &3{
         border: #F53838 solid 2px;
         display: flex;
@@ -263,6 +285,7 @@ body{
         padding: 79.63px 69.73px 50px 69.73px;
         border-radius: 10px;
     }
+
     &-galochka{
         font-size: 14px;
         font-weight: 400;
@@ -273,6 +296,7 @@ body{
         color: #4F5665;
         margin-bottom: 10px;
     }
+
     &-podpiska{
         color: #0B132A;
         font-size: 18px;
@@ -281,6 +305,7 @@ body{
         text-align: center;
         margin: 30px 0 30px 0;
     }
+
     &-number{
         color: #0B132A;
         margin-top: 120px;
@@ -289,9 +314,11 @@ body{
         line-height: 30px;
         text-align: center;
     }
+
     &-res{
         @include reset();
     }
+
     &-button{
         border: #F53838 solid 2px;
         color: #F53838;
@@ -307,7 +334,7 @@ body{
         margin-top: 20px;
         &-active{
             border: none;
-            background: #F53838;
+            background: #FFFFFF;
             color: #FFFFFF;
             font-size: 16px;
             font-weight: 700;
@@ -315,6 +342,7 @@ body{
             border-radius: 50px;
             padding: 13px 62.94px;
         }
+
     }
     &-niz{
         font-size: 25px;
